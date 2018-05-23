@@ -15,8 +15,10 @@ class SensorLib:
     def addSensor(self,Sensr,param):
         self.sensors.append((Sensr,param))
 
-    def add_state_raw(self,name_ = None):
-        self.read_raw(20)
+    def add_state_raw(self,name_ = None,n = None):
+        if n == None:
+            n = 20
+        self.read_raw(n)
         self.G.add_gesture(name = name_)
         self.G.add_activeGesture("close",name = name_)
 
