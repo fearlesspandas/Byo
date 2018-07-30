@@ -1,5 +1,5 @@
 # Byo
-Welcome to Byo, a MicroPython library for easily configuring Bio-Reactive devices that work as intended. Byo allows anyone with a Pyboard or other MicroPython device to easily configure a bio-reactive user interface using a multitude of sensors, and machine learning to make the user experience as smooth as possible.
+Welcome to Byo, a MicroPython library for easily configuring Bio-Reactive devices that work as intended. Byo allows anyone with a Pyboard or other MicroPython device to quickly configure a bio-reactive user interface using a multitude of sensors, and machine learning to make the user experience as smooth as possible.
 
 
 # Getting started with Byo
